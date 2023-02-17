@@ -39,10 +39,11 @@ header p {
 }
 
 /*Hero*/
-img {
+.mcontain img {
+    width: 100%;
+    max-width: 350px;
     height: 250px;
-    width: auto;
-    margin-top: 80px;
+    object-fit: cover;
 }
 
 .column {
@@ -71,3 +72,27 @@ h1 {
     padding: 10px 30px;
 }
 /*Gallery*/
+.white {
+    background-color: #F9FAF8;
+}
+
+h2 {
+    text-align: center;
+    color: #1F2937;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.gallery img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 2px solid #3882F6;
+    border-radius: 9px;
+}
