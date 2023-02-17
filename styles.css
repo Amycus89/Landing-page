@@ -62,12 +62,14 @@ h1 {
 .column p {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 4px;
 }
 
-.column a {
+.button {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 16px;
+    font-weight: 700;
     border-radius: 9px;
     padding: 10px 30px;
 }
@@ -107,12 +109,29 @@ h2 {
 .txtquote {
     font-size: 36px;
     text-align: left;
-    font-style: italic;
-    font-weight: 200;
     margin: 60px 25% 0 25%;
 }
 
 .signature {
     margin: 0 25% 60px 25%;
     text-align: right;
+}
+/*Call to Action*/
+.action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 60px 80px;
+    border-radius: 9px;
+    padding: 40px 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product {
+    display: column
+}
+
+.border {
+    border: 2px solid #F9FAF8;
 }
