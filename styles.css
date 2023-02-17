@@ -51,6 +51,7 @@ header p {
     flex-direction: column;
     justify content: center;
     align-items: start;
+    color: #E5E7EB;
 }
 
 h1 {
@@ -61,7 +62,6 @@ h1 {
 
 .column p {
     font-size: 18px;
-    color: #E5E7EB;
     margin: 4px;
 }
 
@@ -99,6 +99,22 @@ h2 {
     border: 2px solid #3882F6;
     border-radius: 9px;
 }
+
+.cent {
+    display: flex;
+    flex-direction: column;
+    justify content: space-between;
+    align-items: center;  
+    height: 200px;  
+}
+
+.cent p {
+    color: #1F2937;
+    font-size: 0.7em;
+    width: 100px;
+    text-align: center;
+}
+
 /*Quote*/
 .quote {
     background-color: #E5E7EB;
@@ -134,6 +150,11 @@ h2 {
 
 .border {
     border: 2px solid #F9FAF8;
+}
+
+.column p {
+    font-size: 18px;
+    margin: 4px;
 }
 
 /*Footer*/
